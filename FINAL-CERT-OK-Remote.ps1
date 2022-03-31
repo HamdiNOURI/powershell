@@ -40,7 +40,7 @@ Copy-Item -Path "$TempPath\template_req.inf" -Destination "$DirPath\$MyDate-$ENV
 ###############################################
 ############ EDITER LA TEMPLATE DANS LE REP
 ###############################################
-
+#
 $CNToModify = 6
 $ColumnCN = 14
 $File="$DirPath\$MyDate-$ENV:BUILD_NUMBER\req.inf"
