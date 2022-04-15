@@ -94,9 +94,11 @@ Do{
 	write-host "Ma variable total est $TotalVar"
 	ADD-content -path $File -value "$TotalVar"
 	}Until($montest -eq -1)
+
 }
 catch  
 	{
+
 		write-host "The Key Pass is $Using:KeyPass "
 	}
 }
