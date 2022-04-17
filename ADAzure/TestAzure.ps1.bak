@@ -15,7 +15,7 @@ $MyDate=Get-Date -Format "yyyyMMdd"
 # [int]$global:BuildNum = $ENV:BUILD_ID
 # $DirPath="$ENV:WORKSPACE"  
 [int]$global:BuildNum = $args[1]
-$DirPath = $arg[0]  		
+$DirPath = $args[0]  		
 # $DirPath="C:\Jenkins\workspace\Gestion-Compte-Azure"
 
 
