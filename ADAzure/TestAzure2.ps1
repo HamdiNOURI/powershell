@@ -25,8 +25,8 @@ write-host "Le path est : $DirPath"
 ############ BLOC DE VARIABLES LOCAL
 ###############################################
 $UsersListFile = "$DirPath\New\Liste_user.csv"
-[int]$mode = ((Get-Content $UsersListFile)[0]).split(",").count
-write-host "le mode number est : $mode "
+# [int]$mode = ((Get-Content $UsersListFile)[0]).split(",").count
+# write-host "le mode number est : $mode "
 <#
 ###################################################################################################################
 function CreateAzureUser($UsersListFile) {
